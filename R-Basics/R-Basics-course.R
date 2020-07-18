@@ -1,6 +1,6 @@
 
 
-
+#Course
 
 ### This is the course script, copy and paste this into RStudio. We will be going through this material during the course
 
