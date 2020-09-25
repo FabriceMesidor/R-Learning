@@ -48,9 +48,10 @@ runif(3,,4)
 ### First Coding Steps
 
 # R as a calculator
-4 + 4                        + 5
+4 + 4 + 5
 
 # Space does not matter
+4 + 4                        + 5
 
 # Operators: + - / * ^
 
@@ -61,9 +62,9 @@ runif(3,,4)
 x <- c(4,5,6)
 
 c(4, 5.2, 76) -> y # arrows work both directions
-y
+y  # c: values within the bracket belong together
 
-x = c(4, 5, 6)
+x = c(4, 5, 6); x #semicolon indicates a new row of code
 
 assign("x", c(4.2, 1, 5)) # function assign
 
@@ -82,6 +83,7 @@ objects()
 
 # Removing an object
 rm("x")
+rm("my_var")
 
 # Working with vectors
 x = c(y, 5, y)
